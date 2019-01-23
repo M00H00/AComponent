@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AComponent'
-  s.version          = '0.1.0'
+  s.version          = '1'
   s.summary          = 'A short description of AComponent.'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/mh_doit@163.com/AComponent'
+  s.homepage         = 'https://github.com/M00H00/AComponent'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'mh_doit@163.com' => 'mh_doit@163.com' }
-  s.source           = { :git => 'https://github.com/mh_doit@163.com/AComponent.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/M00H00/AComponent.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -38,5 +38,10 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'AFNetworking', '~> 2.3'
+
+    s.dependency 'AComponent_c', '~> 0.1.1'
+    #s.dependency 'CTMediator'
+   
+   
 end

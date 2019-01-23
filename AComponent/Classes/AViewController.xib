@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G22010" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AViewController">
+            <connections>
+                <outlet property="button" destination="hy2-Je-hBt" id="nRp-3n-UaA"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <viewController id="yQc-Zf-RJp" customClass="AViewController">
+            <layoutGuides>
+                <viewControllerLayoutGuide type="top" id="BF6-vf-dFX"/>
+                <viewControllerLayoutGuide type="bottom" id="RiY-ft-EnW"/>
+            </layoutGuides>
+            <view key="view" contentMode="scaleToFill" id="R7s-Bq-exj">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hy2-Je-hBt">
+                        <rect key="frame" x="142" y="266" width="46" height="30"/>
+                        <state key="normal" title="Button"/>
+                        <connections>
+                            <action selector="tapAction:" destination="-1" eventType="touchUpInside" id="mw0-2Z-3E9"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="hy2-Je-hBt" firstAttribute="centerX" secondItem="R7s-Bq-exj" secondAttribute="centerX" id="hHA-UN-tNX"/>
+                    <constraint firstItem="hy2-Je-hBt" firstAttribute="centerY" secondItem="R7s-Bq-exj" secondAttribute="centerY" id="noU-dZ-R8h"/>
+                </constraints>
+            </view>
+            <point key="canvasLocation" x="-232" y="-273"/>
+        </viewController>
+    </objects>
+</document>

@@ -9,10 +9,15 @@
 #import "AViewController.h"
 
 @interface AViewController ()
+    @property (weak, nonatomic) IBOutlet UIButton *button;
 
 @end
 
 @implementation AViewController
+    
+- (IBAction)tapAction:(id)sender {
+    
+}
 
 - (void)viewDidLoad
 {
@@ -20,6 +25,9 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
+    - (void)viewWillAppear:(BOOL)animated {
+//        self.button setTitle:self. forState:<#(UIControlState)#>
+    }
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

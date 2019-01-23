@@ -1,0 +1,27 @@
+{
+  "name": "AComponent",
+  "version": "1",
+  "summary": "A short description of AComponent.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mh_doit@163.com/AComponent",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mh_doit@163.com": "mh_doit@163.com"
+  },
+  "source": {
+    "git": "https://github.com/mh_doit@163.com/AComponent.git",
+    "tag": "1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AComponent/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ]
+  }
+}

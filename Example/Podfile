@@ -3,11 +3,5 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'AComponent_Example' do
-  pod 'AComponent', :path => '../'
-
-  target 'AComponent_Tests' do
-    inherit! :search_paths
-
-    
-  end
+ 
 end
